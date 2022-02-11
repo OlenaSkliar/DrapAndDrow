@@ -1,0 +1,14 @@
+@mixin blockStyle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 50px;
+}
+
+@mixin span {
+    font-family: 'Libre Franklin';
+    font-size: 36px;
+    color: #fff;
+    margin: 0 5px;
+    cursor: move;
+}
